@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dotten-line {
+    @apply border-t-4 border-homeorange border-dotted w-1/2;
+  }
+
+  .btn-hover {
+    @apply transition ease-out duration-300;
+  }
+
+  .cv-h5 {
+    @apply text-homeorange uppercase text-[1.5rem] font-medium;
+  }
+
+  .cv-p {
+    @apply pb-[0.5] font-medium;
+  }
+}
